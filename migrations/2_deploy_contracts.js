@@ -4,7 +4,7 @@ const PetWalletFactory = artifacts.require('PetWalletFactory');
 // const PetWallet = artifacts.require('PetWallet');
 
 module.exports = function(deployer) {
-  // deployer.deploy(PetWallet('0x0)).then((detail) => {
+  // deployer.deploy(PetWallet(_ownerAddress, _petId)).then((detail) => {
   //   address = '{' + '\n' + '"address":' + '"' + detail.constructor.address + '"' + '\n' + '}';
   //   fs.writeFile(
   //     './client/src/contractsAddress/PetWallet_Address.json',
